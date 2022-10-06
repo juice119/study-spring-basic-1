@@ -8,7 +8,7 @@ public class MemberServiceImpl implements MemberService {
         this.memberRepository = memberRepository;
     }
 
-    static MemberServiceImpl useMemory() {
+    public static MemberServiceImpl useMemory() {
         return new MemberServiceImpl(new MemberRepositoryForMemory());
     }
 
