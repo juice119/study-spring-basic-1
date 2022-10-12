@@ -10,6 +10,6 @@
         <constructor-arg name="discountPolicy" ref="discountPolicy"/>
     </bean>
 
-    <bean id="memberRepository" class="hello.core.member.MemberRepositoryForMemory"/>
+    <bean id="memberRepository" class="hello.core.member.MemoryMemberRepository"/>
     <bean id="discountPolicy" class="hello.core.discount.RateDiscountPolicy"/>
 </beans>

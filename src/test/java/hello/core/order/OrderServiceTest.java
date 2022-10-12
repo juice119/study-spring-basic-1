@@ -3,7 +3,7 @@ package hello.core.order;
 import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
-import hello.core.member.MemberRepositoryForMemory;
+import hello.core.member.MemoryMemberRepository;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -12,7 +12,7 @@ import static org.hamcrest.core.Is.is;
 
 class OrderServiceTest {
 
-    MemberRepositoryForMemory memberRepository = new MemberRepositoryForMemory();
+    MemoryMemberRepository memberRepository = new MemoryMemberRepository();
     OrderService orderService = new OrderServiceImpl(memberRepository, new RateDiscountPolicy());
 
     @Test
