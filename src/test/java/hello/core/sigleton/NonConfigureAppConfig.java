@@ -1,4 +1,4 @@
-package sigleton;
+package hello.core.sigleton;
 
 import hello.core.discount.DiscountPolicy;
 import hello.core.discount.FixDiscountPolicy;

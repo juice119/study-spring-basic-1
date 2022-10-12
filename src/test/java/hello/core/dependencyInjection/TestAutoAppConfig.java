@@ -1,4 +1,4 @@
-package dependencyInjection;
+package hello.core.dependencyInjection;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

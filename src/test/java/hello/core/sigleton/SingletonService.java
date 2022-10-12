@@ -1,4 +1,4 @@
-package sigleton;
+package hello.core.sigleton;
 
 public class SingletonService {
 

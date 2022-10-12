@@ -1,4 +1,4 @@
-package sigleton;
+package hello.core.sigleton;
 
 import hello.core.AppConfig;
 import hello.core.member.MemberService;

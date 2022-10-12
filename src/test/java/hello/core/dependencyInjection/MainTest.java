@@ -1,6 +1,5 @@
-package dependencyInjection;
+package hello.core.dependencyInjection;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
